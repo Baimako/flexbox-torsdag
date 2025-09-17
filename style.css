@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+}
+.container {
+  display: flex;
+  border: 5px solid goldenrod;
+}
+.item {
+  border: 2px solid black;
+  font-size: 100px;
+}
+.item2 {
+  border: 2px solid red;
+  font-size: 100px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  border: 5px solid mistyrose;
+}
+.item3 {
+  border: 2px solid blue;
+  font-size: 100px;
+}
+.container3 {
+  display: flex;
+  border: 5px solid green;
+}
+.container3 .item3:nth-child(even) {
+  order: -1;
+}
+.item4 {
+  border: 2px solid purple;
+  font-size: 100px;
+  padding: 20px;
+  min-width: 300px;
+  height: 100px;
+}
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid grey;
+}
+.container5 {
+  display: flex;
+  border: 5px solid yellow;
+  justify-content: center;
+}
+.item5 {
+  border: 2px solid red;
+  font-size: 100px;
+  padding: 10px;
+}
+.item5-4 {
+  align-self: flex-end;
+  margin-left: auto;
+}
